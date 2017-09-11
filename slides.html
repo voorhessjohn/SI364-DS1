@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JSON and Python Dictionary</title>
+    <title>HTML Forms</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600');
@@ -90,7 +90,6 @@ class: center, middle
 # Method Attribute
 
 - The <b>method</b> attribute defines which HTTP method to send the data with.
-- The most common methods are the GET method and the POST method.
 
 ---
 
@@ -104,7 +103,7 @@ class: center, middle
 
 - For example, the URL www.foo.com/?say=Hi&to=Mom will appear in the address bar after submitting the form.
 ```html
-form action="http://foo.com" method="get">
+<form action="http://foo.com" method="get">
   <div>
     <label for="say">What greeting do you want to say?</label>
     <input name="say" id="say" value="Hi">
@@ -130,7 +129,7 @@ form action="http://foo.com" method="get">
 
 - For example, no data is appended to the URL, and the data is included in the request body instead.
 ```html
-form action="http://foo.com" method="post">
+<form action="http://foo.com" method="post">
   <div>
     <label for="say">What greeting do you want to say?</label>
     <input name="say" id="say" value="Hi">
